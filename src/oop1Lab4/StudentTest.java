@@ -4,11 +4,6 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		
-		String id;
-		String name;
-		String Department;
-		float Cgpa;
-		
 		Student s1 = new Student();
 		s1.setId("17-34472-2");
 		s1.setName("Rashma");
