@@ -33,11 +33,7 @@ public class Account {
 		{
 			return balance;
 		}
-
-		@Override
-		public String toString() {
-			return "Account [accName=" + accName + ", acId=" + acId + ", balance=" + balance + "]";
-		}
+	
 		public void showinfo() {
 			System.out.println(accName + " " + acId +" "+balance);
 		}
@@ -45,7 +41,6 @@ public class Account {
 		       
 		       
 		       
-
 		}
 	
 
